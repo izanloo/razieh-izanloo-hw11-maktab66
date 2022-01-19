@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+}
+h1{
+    color: white;
+    display: inline;
+}
+.header{
+    background-image: url('images/bg-mobile-light.jpg');
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+button{
+    float: right;
+    background-color:initial;
+    border: 0px;
+    position: relative;
+
+}
+
+.moon {
+    margin: auto;
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: -0.5rem 0.5rem 0 0  white;
+    position: absolute;
+    top: -13px;
+  }
+  .head{
+     padding: 30px 39px;
+      
+  }
+  form{
+      padding: 30px;
+      padding-right: 40px ;
+      padding-left: 32px;
+      margin-top: -28px;
+  }
+  input[type=text]{
+      width: 100%;
+      border-radius:6px;
+      padding: 5px;
+      height:48px;
+      border:0px;
+  }
+  input::placeholder{
+      font-family:cursive;
+      padding:10px;
+
+  }
+
+.main{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.main form{
+    padding:0px;
+}
+.contain{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+input[type=radio]{
+    border-bottom: 1px;
+    margin-right: 10px;
+    width: 50px;
+    height: 32px;
+}
+.radios{
+    border-bottom: 1px solid gray;
+    padding: 7px;
+}
+
+.radios span{
+    padding-top:-3px;
+    position: absolute;
+    top: 8px;
+}
+.radios p{
+    padding-right: 10px;
+    
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.position-relative{
+    position: relative;
+}
+.w-100{
+    width: 100%;
+}
+.options{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+}
+.option2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #585454;
+}
